@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fuentes.css">
+    
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> -->
+
+    <title>Encriptador</title>
+    
+</head>
+<body>
+
+    <header>
+        <img class="logo-a" src="Imagenes/Icono.png" alt="logo de Alura">
+    </header>
+    
+    <main>
+
+        <section>
+            <textarea class="text-area__section__main" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+            <h6 class="info"> Solo ingresa letra minuscula y sin acento </h6>
+            </div>
+
+            <div class="botones__section__main">
+                <button class="boton-encriptar" onclick="botonEncriptar()" >Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()" >Desencriptar</button>
+            </div>
+
+        </section>
+            
+
+        <section>
+            <textarea class="mensaje__section__main" cols="30" rows="10" placeholder=" "></textarea>
+
+            <div class="mensaje_texto">
+                <h2 class="texto1">Ningún mensaje fue encontrado</h2>
+                <h3 class="texto2">Ingresa el texto que desees encriptar o desncriptar</h3>
+            </div>
+
+            <div class="botones__section__main">
+                <button class="boton-copiar" onclick="copiarTexto() ">Copiar</button>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+<footer class="ccc">
+
+    <div class="pie-pagina">
+        <h2>Challenge create by  <Strong class="negrita"> Funes Ezequiel Alejandro </Strong> </h2>
+    </div>
+    
+
+    <div class="contenedor-redes">
+
+        <div class="redes"> 
+        <img class="icono" src=".//Imagenes/Instagram_icon.png" alt="">
+        <a class="red" target="_blank" href="https://www.instagram.com/ale.funess?igsh=MXVnaDJ3OWlsaHhtOA==">Instagram</a>
+        </div>
+
+    </div>
+
+
+    <div class="contenedor-redes">
+
+        <div class="redes"> 
+        <img class="icono" src=".//Imagenes/LinkedIn_logo.png" alt="">
+        <a class="red" target="_blank" href="https://www.linkedin.com/in/ezequiel-alejandro-funes-846895270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+
+    </div>
+
+
+</footer>
+
+</html>
